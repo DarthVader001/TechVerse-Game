@@ -1,7 +1,7 @@
 const gameContainer = document.querySelector('.game-container');
 const scoreElement = document.getElementById('score'); // Get the score element
 const spawnTime = 1500; // Controls spwan time in milisecons
-const monsterCount = 5; // Controls how many monsters will be spawned
+const monsterCount = 8; // Controls how many monsters will be spawned
 let score = 0; // Initialize the score
 
 function getRandomPosition() {
