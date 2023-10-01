@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Share Tech', sans-serif;
+    letter-spacing: 0.7px;
+}
+
+audio {
+    visibility: hidden;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 100;
+    scale: 0.8;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+.game-cover {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(0.7);
+}
+
+.game-container {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monster {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+}
+
+.start {
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 50%;
+    background: #000000b3;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 15px 30px;
+    left: 50%;
+    top: 55%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid rgb(56 88 133 / 80%);
+    z-index: 200;
+    text-transform: uppercase;
+}
